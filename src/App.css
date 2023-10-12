@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+  background-color: #024f82;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  color: #d87979;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2.5px;
+  background-color: #24b300;
+  position: absolute;
+  bottom: 10;
+  left: 10%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.message-container {
+  background-color: #d4d1d1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: #393939;
+  font-size: 16px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #6b6464;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 70px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #35c5bd;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #24b300;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.score-container {
+  background-color: #a37d7d66;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.score {
+  color: #000000;
+  font-size: 20px;
+}
